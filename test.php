@@ -32,5 +32,5 @@
          ?>
 		  <?//здесь сам цикл?>
 		   <?php endwhile; wp_reset_postdata(); ?>
-		   
+		   <?//dfsdfsdf?>
 		   
