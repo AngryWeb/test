@@ -1,4 +1,5 @@
 <?php
+//Ололололо
           $the_query = new WP_Query(array(
            'meta_key' => 'rest_type',
 		   'meta_value' => 'Имя-категории',
