@@ -1,7 +1,7 @@
 <?php
           $the_query = new WP_Query(array(
            'meta_key' => 'rest_type',
-		   'meta_value' => 'Èìÿ-êàòåãîðèè',
+		   'meta_value' => 'Ð˜Ð¼Ñ-ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸',
 		   'post_type' =>'city',
            'posts_per_page' => 12,
 		   'post_parent' => 1,
@@ -9,14 +9,14 @@
          while ( $the_query->have_posts() ) :
          $the_query->the_post();
          ?>
-		  <?//çäåñü ñàì öèêë?>
+		  <?//Ð·Ð´ÐµÑÑŒ ÑÐ°Ð¼ Ñ†Ð¸ÐºÐ»?>
 		 <?php endwhile; wp_reset_postdata(); ?>
 		 
 		 
-		 <?$the_query = new WP_Query( 'meta_key=rest_type&meta_value=Èìÿ-êàòåãîðèè&showposts=12&post_parent=1&post_type=city' );?>
+		 <?$the_query = new WP_Query( 'meta_key=rest_type&meta_value=Ð˜Ð¼Ñ-ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸&showposts=12&post_parent=1&post_type=city' );?>
 				<?while ( $the_query->have_posts() ) {
 	$the_query->the_post();?>
-	 <?//çäåñü ñàì öèêë?>
+	 <?//Ð·Ð´ÐµÑÑŒ ÑÐ°Ð¼ Ñ†Ð¸ÐºÐ»?>
 	<?php } ?>
 	
 	<?php
@@ -30,7 +30,7 @@
          while ( $the_query->have_posts() ) :
          $the_query->the_post();
          ?>
-		  <?//çäåñü ñàì öèêë?>
+		  <?//Ð·Ð´ÐµÑÑŒ ÑÐ°Ð¼ Ñ†Ð¸ÐºÐ»?>
 		   <?php endwhile; wp_reset_postdata(); ?>
 		   <?//dfsdfsdf
 		   ////sdfg
